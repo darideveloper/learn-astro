@@ -1,10 +1,10 @@
 [ - ]Check design https://www.behance.net/gallery/227428959/AI-Driven-Carbon-Intelligence-SaaS-UX-UI-Design?tracking_source=search_projects|landing+page+ui/ux&l=4
-[ ] Create component ("carbon mesurement" tag)
-    [ ] Use flex
-    [ ] Hover
-    [ ] Responsive
-    [ ] React icons
-    [ ] Props
+[ - ] Create component ("carbon mesurement" tag)
+    [ - ] Use flex
+    [ - ] Hover
+    [ - ] Responsive
+    [ - ] React icons
+    [ - ] Props
         [ ] Required props
         [ ] Optional props
         [ ] Data Types
