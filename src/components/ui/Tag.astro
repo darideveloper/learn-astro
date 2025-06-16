@@ -29,6 +29,6 @@ const { text, class: className = "" } = Astro.props as Props;
         <span class:list={["animate-none group-hover:animate-ping"]}>
             <FaLocationCrosshairs />
         </span>
-        <span>{text}</span>
+        <span>{text == "" ? "CARBON ACTIOn" : text}</span>
     </p>
 </div>
