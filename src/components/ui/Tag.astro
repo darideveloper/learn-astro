@@ -16,9 +16,10 @@ import { FaLocationCrosshairs } from "react-icons/fa6";
             "py-1",
             "rounded-2xl",
             "uppercase",
+            "group"
         ]}
     >
-        <FaLocationCrosshairs />
+        <span class:list={["animate-none group-hover:animate-ping"]}><FaLocationCrosshairs /></span>
         <span>CARBON ACTION</span>
     </p>
 </div>
