@@ -23,12 +23,11 @@ const { text, class: className = "" } = Astro.props;
       "gap-2",
       "text-blue-800",
       "group",
-
     ]}
   >
     <p class:list={["animate-none group-hover:animate-ping"]}>
       <FaRegCircleDot />
     </p>
-    <p>{text}</p>
+    <p>{text == "" ? "Carbon Action 2" : text}</p>
   </div>
 </div>

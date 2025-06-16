@@ -5,10 +5,10 @@
     [ - ] Responsive
     [ - ] React icons
     [ - ] Props
-        [ ] Required props
-        [ ] Optional props
-        [ ] Data Types
-    [ ] Default text with conditional rendering
+        [ - ] Required props
+        [ - ] Optional props
+        [ - ] Data Types
+    [ - ] Default text with conditional rendering
 [ ] Create component ("unlock revenue" card)
     [ ] use flex (optional)
     [ ] Hover
