@@ -1,8 +1,15 @@
 ---
 import { FaLocationCrosshairs } from "react-icons/fa6";
+
+interface Props {
+    text: string;
+    class?: string;
+}
+
+const { text, class: className = "" } = Astro.props as Props;
 ---
 
-<div class:list={["inline-block"]}>
+<div class:list={["inline-block", className]}>
     <p
         class:list={[
             "flex",
@@ -16,10 +23,12 @@ import { FaLocationCrosshairs } from "react-icons/fa6";
             "py-1",
             "rounded-2xl",
             "uppercase",
-            "group"
+            "group",
         ]}
     >
-        <span class:list={["animate-none group-hover:animate-ping"]}><FaLocationCrosshairs /></span>
-        <span>CARBON ACTION</span>
+        <span class:list={["animate-none group-hover:animate-ping"]}>
+            <FaLocationCrosshairs />
+        </span>
+        <span>{text}</span>
     </p>
 </div>
