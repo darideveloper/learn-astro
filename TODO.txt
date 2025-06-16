@@ -1,0 +1,37 @@
+[ ] Check design https://www.behance.net/gallery/227428959/AI-Driven-Carbon-Intelligence-SaaS-UX-UI-Design?tracking_source=search_projects|landing+page+ui/ux&l=4
+[ ] Create component ("carbon mesurement" tag)
+    [ ] Use flex
+    [ ] Hover
+    [ ] Responsive
+    [ ] React icons
+    [ ] Props
+        [ ] Required props
+        [ ] Optional props
+        [ ] Data Types
+    [ ] Default text with conditional rendering
+[ ] Create component ("unlock revenue" card)
+    [ ] use flex (optional)
+    [ ] Hover
+    [ ] Responsive
+    [ ] React icons
+    [ ] Props
+        [ ] Required props
+        [ ] Optional props
+        [ ] Data Types
+[ ] Create section (Hero)
+    [ ] Render h1
+    [ ] Render text
+    [ ] Use container
+    [ ] Use flex (optional)
+    [ ] Use tag component
+    [ ] Use button component
+    [ ] Responsive
+[ ] Create section (What you can Archivbe with Carbon Mesurement)
+    [ ] Render h2
+    [ ] Loop rendering 6 cards
+    [ ] Use grid  
+[ ] Create page
+[ ] Display grid
+[ ] display flex
+[ ] Loop rendering
+[ ] Conditional rendering
