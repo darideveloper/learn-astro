@@ -1,0 +1,30 @@
+---
+import Tag from "../ui/Tag.astro";
+import Button from "../ui/Button.astro";
+---
+
+<section id="hero" class:list={["debug", "container"]}>
+  <div
+    class:list={[
+      "debug",
+      "flex",
+      "flex-col-reverse sm:flex-col",
+      "justify-center",
+      "items-center",
+      "text-center",
+      "max-w-4xl ",
+      "mx-auto"
+    ]}
+  >
+    <Tag text="Action Carbon" />
+    <h1 class:list={["text-2xl  sm:text-4xl md:text-5xl", "font-bold", "my-2"]}>
+      Empower Costumers DRIVE Carbon Action
+    </h1>
+    <p class:list={["hidden sm:block", "my-5"]}>
+      Enable your costumers to transalte data into action and achieve their
+      sustainability goals with your saas solution. Build costumized decision
+      support and optimized tools to guide their descarbonitation strategy
+    </p>
+    <Button href="#"> Contact Sales </Button>
+  </div>
+</section>
