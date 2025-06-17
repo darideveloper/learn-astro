@@ -8,8 +8,8 @@
         [x] Required props
         [x] Optional props
         [x] Data Types
-    [ ] Default text with conditional rendering
-[ ] Create component ("unlock revenue" card)
+    [x] Default text with conditional rendering
+[   ] Create component ("unlock revenue" card)
     [ ] use flex (optional)
     [ ] Hover
     [ ] Responsive
