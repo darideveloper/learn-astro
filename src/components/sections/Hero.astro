@@ -4,15 +4,23 @@ import Button from "../ui/Button.astro";
 ---
 
 <section
-    class:list={["container", "debug"]}
-    id="hero"
+  class:list={[
+    "container",
+    "debug",
+    "flex",
+    "justify-center",
+    "items-center",
+    "flex-col",
+    "text-center",
+  ]}
+  id="hero"
 >
-    <Tag text="" />
-    <h1>Empower Customers Drive Carbon Action</h1>
-    <p>
-        Enable gour customers to translate data into action and achieve their
-        sustainabilitg goals with gour SaaS solution. Build customized decision
-        support and optimization tools to guide their decarbonization strategg
-    </p>
-    <Button href="www.google.com">Contact Sales</Button>
+  <Tag text="" />
+  <h1 class:list={["text-4xl sm:text-5xl lg:text-7xl", "my-4"]}>Empower Customers Drive  <br> Carbon Action</h1>
+  <p class:list={["hidden sm:block", "py-2", "max-w-2xl"]}>
+    Enable gour customers to translate data into action and achieve their
+    sustainabilitg goals with gour SaaS solution. Build customized decision
+    support and optimization tools to guide their decarbonization strategg
+  </p>
+  <Button href="www.google.com" class:list={["mt-2"]}>Contact Sales</Button>
 </section>
