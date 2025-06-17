@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+.container {
+  margin: 0 auto;
+  @media only screen and (max-width: 600px) {
+    padding: 0 3%;
+  }
+}
+
+.debug {
+    border: 1px solid red;
+}
