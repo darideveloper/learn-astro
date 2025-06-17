@@ -6,7 +6,7 @@ interface Props {
   class?: string;
 }
 
-const { text, class: className = "" } = Astro.props;
+const { text, class: className = "" } = Astro.props as Props;
 ---
 
 <div class:list={["tag", "inline-block", className]}>
@@ -23,6 +23,7 @@ const { text, class: className = "" } = Astro.props;
       "gap-2",
       "text-blue-800",
       "group",
+      "uppercase"
     ]}
   >
     <p class:list={["animate-none group-hover:animate-ping"]}>
