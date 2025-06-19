@@ -18,14 +18,14 @@
         [ ] Required props
         [ ] Optional props
         [ ] Data Types
-[ ] Create section (Hero)
-    [ ] Render h1
-    [ ] Render text
-    [ ] Use container
-    [ ] Use flex (optional)
-    [ ] Use tag component
-    [ ] Use button component
-    [ ] Responsive
+[ - ] Create section (Hero)
+    [ - ] Render h1
+    [ - ] Render text
+    [ - ] Use container
+    [ - ] Use flex (optional)
+    [ - ] Use tag component
+    [ - ] Use button component
+    [ - ] Responsive
 [ ] Create section (What you can Archivbe with Carbon Mesurement)
     [ ] Render h2
     [ ] Loop rendering 6 cards
