@@ -1,12 +1,44 @@
 ---
 import { FaAmazon } from "react-icons/fa6";
+import { FaAmazonPay } from "react-icons/fa6";
+import { FaAppStore } from "react-icons/fa6";
+
+//props
+interface Props {
+  iconName: "amazon" | "pay" | "app";
+  title: string;
+  text: String;
+  class?: string;
+}
+
+const { title, iconName, text, class: className = "" } = Astro.props as Props;
+
+//data
+const icons = {
+  amazon: FaAmazon,
+  pay: FaAmazonPay,
+  app: FaAppStore,
+};
+const Icon = icons[iconName];
 ---
 
-<article class:list={["p-5", "shadow-xl", "w-11/12", "rounded-2xl", "max-w-sm"]}>
-  <p class:list={["text-4xl", "m-3"]}><FaAmazon /></p>
-  <h2 class:list={["font-semibold", "text-2xl", "mt-10", "mb-3"]}>Lorem ipsum dolor.</h2>
+<article
+  class:list={[
+    "p-5",
+    "shadow-xl",
+    "w-11/12",
+    "rounded-2xl",
+    "max-w-sm",
+    "hover:scale-110",
+    "duration-200",
+    className,
+  ]}
+>
+  <p class:list={["text-4xl", "m-3"]}><Icon /></p>
+  <h2 class:list={["font-semibold", "text-2xl", "mt-10", "mb-3"]}>
+    {title}
+  </h2>
   <p class:list={["text-justify", "text-sm"]}>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur,
-    fuga. At quam dignissimos dolores repellendus dolor, omnis architecto.
+    {text}
   </p>
 </article>
