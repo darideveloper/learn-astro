@@ -1,10 +1,21 @@
 ---
+//Components
 import Hero from "../components/sections/Hero.astro";
-import Layout from "../layouts/Layout.astro";
 import Card from "../components/ui/Card.astro";
+
+//Layouts
+import Layout from "../layouts/Layout.astro";
+
+//Icons
+import { FaBandcamp } from "react-icons/fa6";
 ---
 
-<Layout>    
-    <!-- <Hero/> --> 
-    <Card/> 
+<Layout>
+  <!-- <Hero/> -->
+  <Card
+    title="Unlock Revenue"
+    text="Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions."
+  >
+    <FaBandcamp />
+  </Card>
 </Layout>
