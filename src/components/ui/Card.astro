@@ -8,15 +8,17 @@ interface Props {
 const { title, text, class: className = "" } = Astro.props as Props;
 ---
 
-<article class:list={["p-6", "shadow-xl", "rounded-2xl", "w-full", "max-w-md", className]}>
+<article class:list={["p-6", "shadow-xl", "rounded-2xl", "w-full", "max-w-md", "group", className]}>
   <p
     class:list={[
-      "text-5xl",
+      "text-5xl group-hover:text-6xl",
+      "duration-300", 
       "border-1",
       "border-gray-200",
       "inline-block",
       "p-3",
       "mb-8",
+  
     ]}
   >
     <slot/>

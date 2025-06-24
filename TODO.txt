@@ -9,15 +9,15 @@
         [x] Optional props
         [x] Data Types
     [x] Default text with conditional rendering
-[   ] Create component ("unlock revenue" card)
-    [ ] use flex (optional)
-    [ ] Hover
-    [ ] Responsive
-    [ ] React icons
-    [ ] Props
-        [ ] Required props
-        [ ] Optional props
-        [ ] Data Types
+[x] Create component ("unlock revenue" card)
+    [x] use flex (optional)
+    [x] Hover
+    [x] Responsive
+    [x] React icons
+    [x] Props
+        [x] Required props
+        [x] Optional props
+        [x] Data Types
 [x] Create section (Hero)
     [x] Render h1
     [x] Render text
