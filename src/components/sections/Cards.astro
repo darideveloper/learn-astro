@@ -1,6 +1,53 @@
 ---
+//components
 import Card from "../ui/Card.astro";
+
+//icons
 import { FaBity, FaBitcoin, FaBomb } from "react-icons/fa6";
+
+//date
+const cardData = {};
+
+const cardsData = [
+  {
+    title: "Unlock Revenue",
+    text: "Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions.",
+    icon: FaBity,
+  },
+  {
+    title: "2",
+    text: "Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions.",
+    icon: FaBitcoin,
+  },
+  {
+    title: "3",
+    text: "Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions.",
+    icon: FaBomb,
+  },
+  {
+    title: "4",
+    text: "Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions.",
+    icon: FaBity,
+  },
+  {
+    title: "5",
+    text: "Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions.",
+    icon: FaBity,
+  },
+  {
+    title: "6",
+    text: "Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions.",
+    icon: FaBity,
+  },
+];
+
+/* const numeros = [1,2,3,4,5,6,7]
+
+const numeros2 = numeros.map((numero)=>{
+    const num2 = numero*2
+    return num2
+})
+console.log(numeros2) */
 ---
 
 <section class:list={["container"]} id="cards">
@@ -14,24 +61,18 @@ import { FaBity, FaBitcoin, FaBomb } from "react-icons/fa6";
       "gap-2 md:gap-4",
     ]}
   >
-    <Card
-      title="Unlock Revenue"
-      text="Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions."
-      class:list={["mx-auto"]}
-    >
-      <FaBity />
-    </Card>
-    <Card
-      title="Unlock Revenue"
-      text="Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions."
-    >
-      <FaBitcoin />
-    </Card>
-    <Card
-      title="Unlock Revenue"
-      text="Tap into new revenue streams and extend gour SaaS offering by meeting the growing customer demand for trusted carbon solutions."
-    >
-      <FaBomb />
-    </Card>
+    {
+      cardsData.map((cardData) => {
+        return (
+          <Card
+            title={cardData.title}
+            text={cardData.text}
+            class:list={["mx-auto"]}
+          >
+            {<cardData.icon />}
+          </Card>
+        );
+      })
+    }
   </div>
 </section>

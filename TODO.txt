@@ -27,11 +27,11 @@
     [x] Use button component
     [x] Responsive
 [ ] Create section (What you can Archivbe with Carbon Mesurement)
-    [ ] Render h2
+    [x] Render h2
     [ ] Loop rendering 6 cards
-    [ ] Use grid  
-[ ] Create page
-[ ] Display grid
-[ ] display flex
+    [x] Use grid  
+[x] Create page
+[x] Display grid
+[x] display flex
 [ ] Loop rendering
-[ ] Conditional rendering
+[x] Conditional rendering
